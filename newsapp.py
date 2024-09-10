@@ -23,7 +23,7 @@ def speak(audio):
 	engine.runAndWait()
 
 # Initialize the NewsApiClient with your API key
-newsapi = NewsApiClient(api_key='5975c8377e2d4bf3aed1edef6deae45b')
+newsapi = NewsApiClient(api_key='API-key')
 
 # def get_country_code(country_name): Defines a function that takes the name of a country as input.
 # try...except LookupError: Attempts to look up the country using pycountry. If the country name is invalid, it catches the LookupError and returns None.
